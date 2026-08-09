@@ -1,0 +1,23 @@
+{
+  "feature_names": [
+    "Relative_Compactness",
+    "Surface_Area",
+    "Wall_Area",
+    "Roof_Area",
+    "Overall_Height",
+    "Orientation",
+    "Glazing_Area",
+    "Glazing_Dist"
+  ],
+  "target_names": [
+    "Heating_Load",
+    "Cooling_Load"
+  ],
+  "best_model": "Ridge Regression",
+  "hyperparameters": {
+    "alpha": 1.0
+  },
+  "training_samples": 768,
+  "n_features": 8,
+  "seed": 42
+}

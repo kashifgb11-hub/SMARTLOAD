@@ -1,0 +1,14 @@
+# Python / backend
+backend/.venv/
+backend/__pycache__/
+backend/app/__pycache__/
+*.pyc
+backend/server.log
+
+# Node (frontend has its own .gitignore too, this is a backstop)
+node_modules/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db

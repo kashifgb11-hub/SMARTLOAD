@@ -15,7 +15,7 @@ export default function MissingDataNote({ missingCount }) {
           <div className="mt-4 flex items-center gap-2 rounded-lg bg-accent-amber/10 border border-accent-amber/30 px-3 py-2">
             <InformationCircleIcon className="w-4 h-4 text-accent-amber shrink-0" />
             <span className="text-[13px] text-text-secondary">
-              {missingCount} of 8 parameters were unavailable — median values were used for estimation.
+              {missingCount} of 8 parameters were unavailable. Median values were used for estimation.
             </span>
           </div>
         </motion.div>

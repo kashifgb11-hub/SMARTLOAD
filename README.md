@@ -2,7 +2,7 @@
 
 **Predict Building Energy Demand Before You Build**
 
-SmartLoad is an MSc dissertation project that predicts a building's heating and cooling
+SmartLoad is a website that predicts a building's heating and cooling
 energy demand from early-stage architectural design parameters — compactness, surface
 area, wall/roof area, height, orientation, and glazing — using a trained Ridge Regression
 model with SHAP-based explainability. It's built as a FastAPI backend serving the model,
@@ -57,8 +57,4 @@ See [`backend/CLAUDE.md`](backend/CLAUDE.md) and [`smartload-frontend/CLAUDE.md`
 for architecture details, and [`test_report.md`](test_report.md) for the full QA pass covering
 normal use, edge cases, and failure handling.
 
-## About
 
-MSc Dissertation Project — Building Energy Demand Prediction Using Robust Machine Learning
-for Early-Stage Design.
-Kashif Khan — Liverpool John Moores University — 2026.
